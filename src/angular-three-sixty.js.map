@@ -1,1 +1,0 @@
-{"version":3,"file":"angular-three-sixty.js","sourceRoot":"","sources":["angular-three-sixty.ts"],"names":[],"mappings":";;AAAA,kBAAkB;AAClB,2DAAwD;AAA/C,gDAAA,gBAAgB,CAAA;AACzB,iEAA8D;AAArD,sDAAA,mBAAmB,CAAA","sourcesContent":["// Public classes.\nexport { ThreeSixtyModule } from './three-sixty.module';\nexport { ThreeSixtyComponent } from './three-sixty.component';\n"]}

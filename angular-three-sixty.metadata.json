@@ -1,0 +1,295 @@
+{
+  "__symbolic": "module",
+  "version": 4,
+  "metadata": {
+    "ThreeSixtyModule": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "NgModule"
+          },
+          "arguments": [
+            {
+              "declarations": [
+                {
+                  "__symbolic": "reference",
+                  "name": "ThreeSixtyComponent"
+                }
+              ],
+              "providers": [
+                {
+                  "__symbolic": "reference",
+                  "name": "ɵa"
+                }
+              ],
+              "exports": [
+                {
+                  "__symbolic": "reference",
+                  "name": "ThreeSixtyComponent"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "members": {}
+    },
+    "ThreeSixtyComponent": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "Component"
+          },
+          "arguments": [
+            {
+              "selector": "mm-three-sixty",
+              "styles": [
+                ".three-sixty-container{position:relative;cursor:move;cursor:-webkit-grab;-ms-touch-action:none;touch-action:none}.three-sixty__hotspot{display:none;position:absolute;width:200px;padding:10px 15px;background:rgba(0,0,0,.5);border-radius:20px;color:#fff}.three-sixty__hotspot--active{display:block}"
+              ],
+              "template": "<canvas #canvasElement class=\"mm-three-sixty meta\" [width]=\"width\" [height]=\"height\" style=\"width:100%\"></canvas>",
+              "encapsulation": {
+                "__symbolic": "select",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "ViewEncapsulation"
+                },
+                "member": "None"
+              }
+            }
+          ]
+        }
+      ],
+      "members": {
+        "width": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "height": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "angles": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "anglesPerImage": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "startAngle": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "speedFactor": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "hotspots": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "preload": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input"
+                }
+              }
+            ]
+          }
+        ],
+        "preloaded": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Output"
+                }
+              }
+            ]
+          }
+        ],
+        "canvasElement": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "ViewChild"
+                },
+                "arguments": [
+                  "canvasElement"
+                ]
+              }
+            ]
+          }
+        ],
+        "__ctor__": [
+          {
+            "__symbolic": "constructor",
+            "parameters": [
+              {
+                "__symbolic": "reference",
+                "name": "ɵa"
+              }
+            ]
+          }
+        ],
+        "ngOnInit": [
+          {
+            "__symbolic": "method"
+          }
+        ],
+        "ngOnChanges": [
+          {
+            "__symbolic": "method"
+          }
+        ],
+        "forcePreload": [
+          {
+            "__symbolic": "method"
+          }
+        ],
+        "preloadImages": [
+          {
+            "__symbolic": "method"
+          }
+        ],
+        "getThreeSixtyConfiguration": [
+          {
+            "__symbolic": "method"
+          }
+        ]
+      }
+    },
+    "ɵa": {
+      "__symbolic": "class",
+      "members": {
+        "create": [
+          {
+            "__symbolic": "method"
+          }
+        ]
+      }
+    }
+  },
+  "origins": {
+    "ThreeSixtyModule": "./src/three-sixty.module",
+    "ThreeSixtyComponent": "./src/three-sixty.component",
+    "ɵa": "./src/three-sixty.factory"
+  },
+  "importAs": "@mediaman/angular-three-sixty"
+}
