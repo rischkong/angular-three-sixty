@@ -1,17 +1,17 @@
 {
-  "_from": "@mediaman/angular-three-sixty",
-  "_id": "@mediaman/angular-three-sixty@0.0.8",
+  "_from": "@rischkong/angular-three-sixty",
+  "_id": "@rischkong/angular-three-sixty@0.0.8",
   "_inBundle": false,
   "_integrity": "sha512-okSzoli+EiICustOlHO7HM+svCGtssHtlysi3ZRzXqaW9l29E5Pl79FTJ+88L2BUaZQw9nZUjNZhL+mYasyn1w==",
-  "_location": "/@mediaman/angular-three-sixty",
+  "_location": "/@rischkong/angular-three-sixty",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@mediaman/angular-three-sixty",
-    "name": "@mediaman/angular-three-sixty",
-    "escapedName": "@mediaman%2fangular-three-sixty",
-    "scope": "@mediaman",
+    "raw": "@rischkong/angular-three-sixty",
+    "name": "@rischkong/angular-three-sixty",
+    "escapedName": "@rischkong%2fangular-three-sixty",
+    "scope": "@rischkong",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -20,17 +20,16 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@mediaman/angular-three-sixty/-/angular-three-sixty-0.0.8.tgz",
+  "_resolved": "https://registry.npmjs.org/rischkong/angular-three-sixty/-/angular-three-sixty-0.0.8.tgz",
   "_shasum": "72af552fa1bedd17a3bc47b4615065cb6cc5666a",
-  "_spec": "@mediaman/angular-three-sixty",
+  "_spec": "@rischkong/angular-three-sixty",
   "_where": "/Users/rischko/CloudStation/_work/audi/s19/_code/cwa",
   "author": "",
   "bugs": {
-    "url": "https://github.com/mediamanDE/angular-three-sixty/issues"
+    "url": "https://github.com/rischkong/angular-three-sixty/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@mediaman/three-sixty": "0.0.9",
     "tslib": "^1.7.1"
   },
   "deprecated": false,
@@ -44,7 +43,7 @@
     "@angular/platform-browser": "5.0.0",
     "@angular/platform-browser-dynamic": "5.0.0",
     "@angular/platform-server": "5.0.0",
-    "@compodoc/compodoc": "1.0.3",
+    "@compodoc/compodoc": "^1.1.7",
     "@types/jasmine": "2.6.2",
     "@types/node": "8.0.47",
     "angular2-inline-template-style": "^1.3.0",
@@ -64,7 +63,7 @@
     "node-sass": "^4.7.2",
     "reflect-metadata": "0.1.10",
     "rollup": "0.50.0",
-    "rollup-plugin-license": "0.5.0",
+    "rollup-plugin-license": "^0.7.0",
     "rollup-plugin-node-resolve": "3.0.0",
     "rollup-plugin-sourcemaps": "0.4.2",
     "rxjs": "5.5.2",
@@ -80,7 +79,7 @@
     "zone.js": "0.8.18"
   },
   "es2015": "./esm2015/angular-three-sixty.js",
-  "homepage": "https://github.com/mediamanDE/angular-three-sixty",
+  "homepage": "https://github.com/rischkong/angular-three-sixty",
   "keywords": [
     "angular",
     "javascript",
@@ -89,14 +88,14 @@
   "license": "MIT",
   "main": "./bundles/angular-three-sixty.umd.js",
   "module": "./esm5/angular-three-sixty.js",
-  "name": "@mediaman/angular-three-sixty",
+  "name": "@rischkong/angular-three-sixty",
   "peerDependencies": {
     "@angular/common": ">= 5.0.0",
     "@angular/core": ">= 5.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mediamanDE/angular-three-sixty.git"
+    "url": "git+https://github.com/rischkong/angular-three-sixty.git"
   },
   "scripts": {
     "build": "node build.js",
