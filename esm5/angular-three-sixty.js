@@ -4,7 +4,7 @@
  */
 
 import { Component, EventEmitter, Input, NgModule, Output, ViewChild, ViewEncapsulation } from '@angular/core';
-import ThreeSixty from '@mediaman/three-sixty';
+import ThreeSixty from '@rischkong/three-sixty';
 
 /**
  * @fileoverview added by tsickle
