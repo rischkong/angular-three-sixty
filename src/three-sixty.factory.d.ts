@@ -1,5 +1,5 @@
-import ThreeSixty from '@mediaman/three-sixty';
-import { ConfigurationInterface } from '@mediaman/three-sixty/dist/interfaces/configuration.interface';
+import ThreeSixty from '@rischkong/three-sixty';
+import { ConfigurationInterface } from '@rischkong/three-sixty/dist/interfaces/configuration.interface';
 export declare class ThreeSixtyFactory {
     /**
      * @param canvasElement

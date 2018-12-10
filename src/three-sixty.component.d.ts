@@ -1,7 +1,7 @@
 import {EventEmitter, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {ThreeSixtyFactory} from './three-sixty.factory';
-import {HotspotInterface} from '@mediaman/three-sixty/dist/interfaces/hotspot.interface';
-import {ImageSetInterface} from '@mediaman/three-sixty/dist/interfaces/image-set.interface';
+import {HotspotInterface} from '@rischkong/three-sixty/dist/interfaces/hotspot.interface';
+import {ImageSetInterface} from '@rischkong/three-sixty/dist/interfaces/image-set.interface';
 
 export declare class ThreeSixtyComponent implements OnInit, OnChanges {
   private threeSixtyFactory;

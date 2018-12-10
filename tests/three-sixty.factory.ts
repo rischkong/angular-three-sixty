@@ -1,7 +1,7 @@
 import { ThreeSixtyFactory } from '../src/three-sixty.factory';
 import { TestBed } from '@angular/core/testing';
 import { inject } from '@angular/core/testing';
-import ThreeSixty from '@mediaman/three-sixty';
+import ThreeSixty from '@rischkong/three-sixty';
 
 describe('ThreeSixtyFactory', () => {
     let threeSixtyFactory: ThreeSixtyFactory;

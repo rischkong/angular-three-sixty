@@ -30,6 +30,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "@rischkong/three-sixty": "git+https://github.com/rischkong/three-sixty.git",
     "tslib": "^1.7.1"
   },
   "deprecated": false,
