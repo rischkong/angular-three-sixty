@@ -2,8 +2,8 @@ import { TestBed, ComponentFixture, inject } from '@angular/core/testing';
 import { ThreeSixtyComponent } from '../src/three-sixty.component';
 import { ThreeSixtyFactory } from '../src/three-sixty.factory';
 import { By } from '@angular/platform-browser';
-import ThreeSixty from '@mediaman/three-sixty';
-import { ConfigurationInterface } from '@mediaman/three-sixty/dist/interfaces/configuration.interface';
+import ThreeSixty from '@rischkong/three-sixty';
+import { ConfigurationInterface } from '@rischkong/three-sixty/dist/interfaces/configuration.interface';
 import { SimpleChange } from '@angular/core';
 
 describe('ThreeSixtyComponent', () => {

@@ -291,5 +291,5 @@
     "ThreeSixtyComponent": "./src/three-sixty.component",
     "ɵa": "./src/three-sixty.factory"
   },
-  "importAs": "@mediaman/angular-three-sixty"
+  "importAs": "@rischkong/angular-three-sixty"
 }

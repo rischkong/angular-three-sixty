@@ -26,7 +26,7 @@ module.exports = function (config) {
         // list of files / patterns to load in the browser
         files: [
             { pattern: 'spec.bundle.js', watched: false },
-            { pattern: 'node_modules/@mediaman/three-sixty/dist/three-sixty.css', watched: false }
+            { pattern: 'node_modules/@rischkong/three-sixty/dist/three-sixty.css', watched: false }
         ],
 
         proxies: {
